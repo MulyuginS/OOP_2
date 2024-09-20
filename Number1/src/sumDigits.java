@@ -1,9 +1,6 @@
 public class sumDigits {
-   private int sum = 0;
-   private int current;
-
-   public sumDigits(){}
-
+    int sum = 0;
+    int current;
     public void digits(){
        for(int i = 0;i <= 300; i++){
            if( i % 4 == 0 && i % 6 != 0){
