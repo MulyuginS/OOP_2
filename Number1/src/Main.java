@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        sumDigits numbers = new sumDigits();
-        numbers.digits();
+        int current = sumDigits.current;
+        sumDigits.digits();
 
         MedianChars medianChars = new MedianChars();
         String str1 = "string";
@@ -10,7 +10,7 @@ public class Main {
         CountLatinWords counter = new CountLatinWords();
         String sentence = "One two three раз два три one1 two2 123 ";
         int latinWordCount = counter.countLatinWords(sentence);
-        System.out.println(  latinWordCount);
+        System.out.println( latinWordCount);
 
         String text = "fffff ab f 1234 jkjk";
         MinSymbol finder = new MinSymbol();
