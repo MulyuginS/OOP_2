@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface WomenClothes {
+public interface WomenClothes {
+    void DressWoman();
 }
